@@ -1,7 +1,5 @@
 /* 
 
-Add the Google Fonts you want, remove the ones you don't. 
-
 ███████  ██████  ███    ██ ████████ ███████ 
 ██      ██    ██ ████   ██    ██    ██      
 █████   ██    ██ ██ ██  ██    ██    ███████ 
@@ -10,16 +8,8 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab|Staatliches&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 @import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /*
 
@@ -34,7 +24,6 @@ Imported stylesheets. Remove the ones you do not want to use.
 */
 
 @import url('make-something-fly.css');
-@import url('animated-gradient.css');
 @import url('text-stroke.css');
 @import url('stroke-shadow.css');
 @import url('scroll-to-top.css');
@@ -86,15 +75,15 @@ html {
   --background-color-footer: #A3C9F1; 
   --alt-background-color: #000000;
   --background-color-holding-page: #A3C9F1;
-  --h1-color: #5200ff;
+  --h1-color: #1E1E1E;
   --h2-color: #1E1E1E;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h3-color: #1E1E1E;
+  --h4-color: #1E1E1E;
+  --h5-color: #1E1E1E;
+  --h6-color: #1E1E1E;
   --primary-text-color: #1E1E1E;
-  --holding-page-title-color: #5200ff;
-  --accent-color: #5200ff;
+  --holding-page-title-color: #1E1E1E;
+  --accent-color: #245992;
   --overlay-color: #1E1E1E;
   --overlay-title-color: #5200ff;
   --overlay-description-color: #5200ff;
@@ -106,11 +95,11 @@ html {
   --project-sidebar-background-color: #A3C9F1; 
   --project-sidebar-text-color: #1E1E1E;
   --heart-color: #1E1E1E;
-  --holding-page-footer-color: #A3C9F1;
+  --holding-page-footer-color: #1E1E1E;
   --text-selection-background-color: #5200ff;
-  --linear-gradient-color-1: #ff057c;
-  --linear-gradient-color-2: #8d0b93;
-  --linear-gradient-color-3: #321575;
+  --linear-gradient-color-1: #4c8dd2;
+  --linear-gradient-color-2: #4c8dd2;
+  --linear-gradient-color-3: #4c8dd2;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -618,12 +607,8 @@ a:active {
   place-items: center;
   text-align: center;
   width: 100%;
-  min-height: 100vh;
-  /* Delete the following if you do not want a grainy gradient background on the holding page */
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1), var(--background-color-holding-page)),
-    url(/assets/temp/noise.svg);
-  /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
+  min-height: 90vh;
+
 }
 
 .holding-page-animation {
@@ -635,18 +620,8 @@ a:active {
   color: var(--holding-page-title-color);
 }
 
-.holding-page-footer {
-  display: grid;
-  place-items: center;
-  min-height: 10vh;
-  width: 100%;
-}
 
-.holding-page-copyright {
-  font-size: .8rem;
-  color: var(--holding-page-footer-color);
-  margin-bottom: 0;
-}
+
 
 /*
 ███████╗████████╗██╗   ██╗██╗     ███████╗     ██████╗ ██╗   ██╗██╗██████╗ ███████╗
@@ -990,3 +965,135 @@ a.sub-navigation-link:hover {
 /* XX-Large devices (larger desktops, 1400px and up) */
 
 @media (min-width: 1400px) {}
+
+
+/* HEADER */
+
+body {
+  
+  color: #1E1E1E;
+  font-size: 100%;
+  padding: 40px;
+   }   
+
+   /* --- Top Navigation Styles --- */
+#nav {
+  float: right;
+  width: 100%;
+  
+  padding: 30px 0 8px 0;
+  }
+#nav ul {
+  float: right;
+  list-style: none;
+  font-size: 140%;
+  
+}
+#nav li {
+  float: left;
+  width: 130px;
+  margin-left: 8px;
+  text-align: center;
+  }    
+#nav a {
+  display: block;
+  width: 128px;
+  padding: 8px 0;
+  text-decoration: none;
+  border: 1px solid #1E1E1E;
+  background: transparent;
+  color: #1E1E1E; 
+   }
+
+#nav a:hover {
+  border: 1px solid #1E1E1E;
+  background: #1E1E1E;
+  color: #fff;
+  }
+
+  #nav b {
+    display: block;
+    width: 128px;
+    padding: 8px 0;
+    text-decoration: none;
+    
+    background: transparent;
+    color: #A3C9F1; 
+     }
+  
+  #nav b:hover {
+    
+    background: #A3C9F1;
+    color: #fff;
+    }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    font-weight: 100;
+    padding: 20px;
+    
+  }
+
+
+.clearfix {
+  clear: both;
+  }
+
+
+
+/* BOTTOM "BACK TO TOP" */
+
+
+  body {
+  
+    color: #1E1E1E;
+    font-size: 100%;
+    padding: 40px;
+     }   
+  
+     /* --- Top Navigation Styles --- */
+  #BBTT {
+    float: right;
+    width: 100%;
+    
+    padding: 30px 0 8px 0;
+    }
+  #BBTT ul {
+    float: right;
+    list-style: none;
+    font-size: 140%;
+    
+  }
+  #BBTT li {
+    float: left;
+    width: 130px;
+    margin-left: 8px;
+    text-align: center;
+    }    
+  #BBTT a {
+    display: block;
+    width: 128px;
+    padding: 8px 0;
+    text-decoration: none;
+    border: 1px solid #1E1E1E;
+    background: transparent;
+    color: #1E1E1E; 
+     }
+  
+  #BBTT a:hover {
+    border: 1px solid #1E1E1E;
+    background: #1E1E1E;
+    color: #fff;
+    }
+  
+
+
+  
+  
+  .clearfix {
+    clear: both;
+    }
+  
