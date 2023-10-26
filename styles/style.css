@@ -350,7 +350,7 @@ a:active {
 */
 
 .hero {
-  min-height: 80vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
 }
@@ -364,12 +364,13 @@ a:active {
 }
 
 .logo {
-  width: 3rem;
+  width: 5rem;
   position: absolute;
   top: 0;
   left: 0;
   margin: 30px;
-text-align: right;
+  text-align: right;  
+  
 }
 
 .hero-headline-wrapper {
@@ -894,11 +895,11 @@ a.sub-navigation-link:hover {
   }
 
   .logo {
-    width: 5rem;
+    width: 6rem;
   }
 
   .hero {
-    min-height: 100vh;
+    min-height: 80vh;
     
   }
 
