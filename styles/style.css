@@ -556,14 +556,6 @@ a:active {
   margin-bottom: 2rem;
 }
 
-.static {
-  position:absolute;
-  background: #A3C9F1;;
-}
-
-.static:hover {
-  opacity:0;
-}
 
 /* Project Page 
 
