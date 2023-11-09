@@ -92,9 +92,9 @@ html {
   --accent-color: #1e1e1e;
   --overlay-color: #1e1e1e;
   --overlay-title-color: #ff0000;
-  --overlay-description-color: #ff0000;
-  --hyperlink-color: #ff0000;
-  --hyperlink-alternate-color: rgb(255, 0, 0);
+  --overlay-description-color: #c8ff00b3;
+  --hyperlink-color: #00ffd0;
+  --hyperlink-alternate-color: rgb(17, 0, 255);
   --hover-color: #1e1e1e;
   --visited-color: #1e1e1e;
   --project-title-color: #1e1e1e;
@@ -102,7 +102,7 @@ html {
   --project-sidebar-text-color: #1e1e1e;
   --heart-color: #1e1e1e;
   --holding-page-footer-color: #1e1e1e;
-  --text-selection-background-color: #ff0000;
+  --text-selection-background-color: #a200ff;
   --linear-gradient-color-1: #4c8dd2;
   --linear-gradient-color-2: #4c8dd2;
   --linear-gradient-color-3: #4c8dd2;
@@ -204,12 +204,12 @@ em {
 }
 
 .project-title {
-  font-size: 3.725rem;
+  font-size: 3.925rem;
   font-family: var(--project-title-typeface);
   color: var(--project-title-color);
   margin-bottom: 1rem;
 }
-
+.project-category {text-transform: uppercase; font-size: 1.275rem; font-weight: 900;}
 .overlay-title {
   font-size: 2.875rem;
   color: var(--overlay-title-color);
@@ -266,11 +266,7 @@ a:active {
 }
 
 .custom-navigation {
-  background: url(assets/temp/heading-background.svg);
-  background-size: 15%;
-  background-repeat: no-repeat;
-  background-position: center center;
-
+  background: yellow;
   border: 2px solid #1e1e1e;
   color: #1e1e1e;
   transition: all 350ms;
@@ -326,10 +322,14 @@ a:active {
 }
 
 .project-description {
-  font-size: 1rem;
+  font-size: 1.275rem;
   line-height: 1.4;
   margin-bottom: 1rem;
 }
+
+/* Project Colour Accents */
+
+.crossing {color: #e3170c}
 
 /* Hero 
 
@@ -580,7 +580,7 @@ padding: 5px;
 }
 
 
-.footer-email-animation-wrapper {width: 12rem; margin-bottom: 2rem;}
+.footer-email-animation-wrapper {width: 14rem; margin-bottom: 2rem;}
 
 
 /* Project Page 
