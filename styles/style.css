@@ -91,9 +91,9 @@ html {
   --holding-page-title-color: #1e1e1e;
   --accent-color: #1e1e1e;
   --overlay-color: #1e1e1e;
-  --overlay-title-color: #ff0000;
+  --overlay-title-color: #4c8dd2;
   --overlay-description-color: #c8ff00b3;
-  --hyperlink-color: #00ffd0;
+  --hyperlink-color: #1e1e1e;
   --hyperlink-alternate-color: rgb(17, 0, 255);
   --hover-color: #1e1e1e;
   --visited-color: #1e1e1e;
@@ -266,7 +266,7 @@ a:active {
 }
 
 .custom-navigation {
-  background: yellow;
+  background: a3c9f1;
   border: 2px solid #1e1e1e;
   color: #1e1e1e;
   transition: all 350ms;
@@ -327,9 +327,16 @@ a:active {
   margin-bottom: 1rem;
 }
 
+.about-description {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
 /* Project Colour Accents */
 
-.crossing {color: #e3170c}
+.text {color: #194a7f;
+  margin-top: 2rem;}
 
 /* Hero 
 
@@ -580,8 +587,21 @@ padding: 5px;
 }
 
 
-.footer-email-animation-wrapper {width: 14rem; margin-bottom: 2rem;}
+.footer-email-animation-wrapper {
+  width: 14rem; 
+  margin-bottom: 2rem;
+  
+}
 
+.footer-email-animation-wrapper-about {
+padding: 20px 50px 0px 50px;
+
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
 
 /* Project Page 
 
@@ -966,6 +986,7 @@ a.sub-navigation-link:hover {
   .about-item-3 {
     grid-row: 1 / 2;
     grid-column: 3 / 4;
+    
   }
 
   .footer-item-3 {
