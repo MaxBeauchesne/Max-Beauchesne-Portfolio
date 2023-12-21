@@ -203,6 +203,13 @@ em {
   color: var(--overlay-color);
 }
 
+.hero-headlinemax {
+  font-size: 4rem;
+  color: #637624;
+  -webkit-text-stroke: 2px #1e1e1e;
+	
+}
+
 .project-title {
   font-size: 3.925rem;
   font-family: var(--project-title-typeface);
@@ -285,7 +292,7 @@ a:active {
   background-position: center center;
 
   border: 2px solid #1e1e1e;
-  background: #1e1e1e;
+  background: #637624;
   color: #fff;
   transition: all 350ms;
   font-family: "Darumadrop One", cursive;
@@ -569,6 +576,7 @@ padding: 5px;
 .instagramiconfront {
   position: relative;	
   position: absolute;
+  
 }
 
 .instagramiconfront:hover {
@@ -942,6 +950,12 @@ a.sub-navigation-link:hover {
 
   .hero-headline-wrapper {
     padding: 4rem 8rem;
+  }
+
+  .hero-headlinemax {
+    font-size: 5rem;
+    color: #637624;
+    -webkit-text-stroke: 2px #1e1e1e;
   }
 
   .grid {
